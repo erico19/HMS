@@ -1,0 +1,27 @@
+php_value session.gc_maxlifetime 36000
+
+
+### WWW & HTTPS
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+
+RewriteEngine on
+RewriteRule ^projectview/([A-Za-z0-9-_+]+)/?$ projectview?id=$1 [NC,L]
+
+
+#ErrorDocument 400 https://test.soluxionz.com/400
+#ErrorDocument 401 https://test.soluxionz.com/401
+#ErrorDocument 404 https://test.soluxionz.com/404
+#ErrorDocument 403 https://test.soluxionz.com/403
+#ErrorDocument 500 https://test.soluxionz.com/500
+<Files php.ini>
+Order Allow,Deny
+Deny from all
+</Files>
+
+
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
