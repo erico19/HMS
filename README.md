@@ -72,7 +72,7 @@ We welcome contributions to the Hospital Management System! To contribute, pleas
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
-For any questions or suggestions, please contact us at [your-email@example.com](mailto:your-email@example.com).
+For any questions or suggestions, please contact us at [info@soluxionz.com](mailto:info@soluxionz.com).
 
 ---
 
